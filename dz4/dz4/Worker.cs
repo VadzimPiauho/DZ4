@@ -15,38 +15,38 @@ namespace dz4
         {
             if (house.basement==null)
             {
-                house.BASEMENT = new Basement();
-                house.BASEMENT.Construct();
+                house.basement = new Basement();
+                house.basement.Construct();
                return;
             }
             for (int i = 0; i < 4; i++)
             {
                 if (house.walls[i] == null)
                 {
-                    house.WALLS[i] = new Walls();
-                    house.WALLS[i].Construct();
+                    house.walls[i] = new Walls();
+                    house.walls[i].Construct();
                     return;
                 } 
             }
             if (house.door == null)
             {
-                house.DOOR = new Door();
-                house.DOOR.Construct();
+                house.door = new Door();
+                house.door.Construct();
                 return;
             }   
             for (int i = 0; i < 4; i++)
             {
                 if (house.windows[i] == null)
                 {
-                    house.WINDOWS[i] = new Window();
-                    house.WINDOWS[i].Construct();
+                    house.windows[i] = new Window();
+                    house.windows[i].Construct();
                     return;
                 }
             }
             if (house.roof == null)
             {
-                house.ROOF = new Roof();
-                house.ROOF.Construct();
+                house.roof = new Roof();
+                house.roof.Construct();
             }     
         }
     }

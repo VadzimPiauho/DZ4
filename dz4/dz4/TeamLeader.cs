@@ -17,33 +17,33 @@ namespace dz4
             if (house.basement != null)
             {
                 Console.WriteLine("Построен - ");
-                house.BASEMENT.Construct();  
+                house.basement.Construct();  
             }
             for (int i = 0; i < 4; i++)
             {
                 if (house.walls[i] != null)
                 {
                     Console.WriteLine($"Построенa - {i+1}");
-                    house.WALLS[i].Construct();  
+                    house.walls[i].Construct();  
                 }
             }
             if (house.door != null)
             {
                 Console.WriteLine("Построена - ");
-                house.DOOR.Construct();    
+                house.door.Construct();    
             }
             for (int i = 0; i < 4; i++)
             {
                 if (house.windows[i] != null)
                 {
                     Console.WriteLine($"Построено - {i+1}");
-                    house.WINDOWS[i].Construct();      
+                    house.windows[i].Construct();      
                 }
             }
             if (house.roof != null)
             {
                 Console.WriteLine("Построена - ");
-                house.ROOF.Construct(); 
+                house.roof.Construct(); 
             }
         }
     }
