@@ -55,6 +55,7 @@
     <Compile Include="TeamLeader.cs" />
     <Compile Include="Walls.cs" />
     <Compile Include="Window.cs" />
+    <Compile Include="Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

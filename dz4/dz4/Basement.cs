@@ -8,16 +8,11 @@ namespace dz4
 {
     class Basement : IPart
     {
-        public bool constructionStatus { get; set; }
-
-        public Basement()
-        {
-            constructionStatus = true;
-        }
-
+        public bool constructionStatus { get; set; } = false; 
         public void Construct()
         {
-            Console.WriteLine("========");
+            constructionStatus = true;
+            Console.WriteLine("Фундамент");
         }
     }
 }

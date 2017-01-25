@@ -8,5 +8,7 @@ namespace dz4
 {
     interface IWorker
     {
+        string name { get; set; }
+        void Build(House house);
     }
 }

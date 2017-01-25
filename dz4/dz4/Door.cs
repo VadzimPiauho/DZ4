@@ -9,13 +9,10 @@ namespace dz4
     class Door : IPart
     {
         public bool constructionStatus { get; set; }
-        public Door()
+      public void Construct()
         {
             constructionStatus = true;
-        }
-        public void Construct()
-        {
-            throw new NotImplementedException();
+            Console.WriteLine("Дверь");
         }
     }
 }

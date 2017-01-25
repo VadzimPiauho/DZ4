@@ -8,15 +8,11 @@ namespace dz4
 {
     class Roof : IPart
     {
-        public bool constructionStatus { get; set; }
-        public Roof()
-        {
-            constructionStatus = true;
-        }
-
+        public bool constructionStatus { get; set; } = false;
         public void Construct()
         {
-            Console.WriteLine("-------");
+            constructionStatus = true;
+            Console.WriteLine("Крыша");
         }
     }
 }
