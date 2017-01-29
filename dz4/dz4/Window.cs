@@ -8,8 +8,8 @@ namespace dz4
 {
     class Window : IPart
     {
-        public bool constructionStatus { get; set; }
-       
+        public bool constructionStatus { get; set; } = false;
+
         public void Construct()
         {
             constructionStatus = true;

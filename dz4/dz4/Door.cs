@@ -8,8 +8,8 @@ namespace dz4
 {
     class Door : IPart
     {
-        public bool constructionStatus { get; set; }
-      public void Construct()
+        public bool constructionStatus { get; set; } = false;
+        public void Construct()
         {
             constructionStatus = true;
             Console.WriteLine("Дверь");

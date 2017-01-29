@@ -8,7 +8,7 @@ namespace dz4
 {
     class Walls : IPart
     {
-        public bool constructionStatus { get; set; }
+        public bool constructionStatus { get; set; } = false;
         public void Construct()
         {
             constructionStatus = true;
