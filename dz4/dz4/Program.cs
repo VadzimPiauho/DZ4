@@ -14,8 +14,6 @@ namespace dz4
             Team team = new Team();
             TeamLeader teamleader = new TeamLeader();
              Console.WriteLine(teamleader.name);
-          
-            int j = 0;
             int i = 0;
             while (house.roof==null)
             {
